@@ -16,39 +16,44 @@
         }
         h2{
             font-size: 70px;
-            text-align: center;
+            /* text-align: center; */
             margin: 2%;
         }
-        .button1{
+        /* button1{
             align-items: center;
             background-color: aqua;
             color: #000;
+            border: none;
+        } */
+        form{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Form Tag's practice in HTML</h1>
     <form action="#">
-        <fieldset>
-            <legend>Sign Up Page</legend>
+        <!-- <fieldset> -->
+            <!-- <legend>Sign Up Page</legend> -->
             <i class='fas fa-user-circle'style="font-size: 80px; color: #7ed7ed;"></i>
-            <h2>Sign Up</h2><br>
+            <u><h2>Sign Up</h2></u>
 
             <label for="user-name">
                 Name :
             </label>
-            <input type="text" id="user-name" name="Full Name"><br><br>
+            <input type="text" id="user-name" name="Full Name" placeholder="Enter your name"><br><br>
 
             <label for="user-id">
                 E-mail :
             </label>
-            <input type="text" name="email" id="user-id"><br><br>
+            <input type="text" name="email" id="user-id" placeholder="Enter your email"><br><br>
 
             <label for="user-Gender">
                 Gender :
             </label>
-            <input type="radio" id="user-Gender">Male
-            <input type="radio" id="user-Gender">Female <br><br>
+            <input type="radio" id="user-Gender"> Male
+            <input type="radio" id="user-Gender"> Female
+            <input type="radio" id="user-Gender"> Others <br><br>
 
             <label for="user-dob">
                 DOB :
@@ -58,12 +63,12 @@
             <label for="user-password">
                 Password :
             </label>
-            <input type="password" name="pswd" id="user-password"><br><br>
+            <input type="password" name="pswd" id="user-password" placeholder="Enter password"><br><br>
 
             <label for="user-re-enter password">
                 Re-enter Password :
             </label>
-            <input type="password" name=" re-enter pswd" id="user-re-enter password"><br><br>
+            <input type="password" name=" re-enter pswd" id="user-re-enter password" placeholder="Re-enter password"><br><br>
 
             <button type="submit">Sign Up</button>
             <button type="reset">Cancel</button>
