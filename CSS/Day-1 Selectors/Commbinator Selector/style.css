@@ -15,6 +15,14 @@ section>aside>p{
 
 /* 1. Decendent Selector (_) */
 
-article_p{
+article>p{
     color: #d5f810;
+}
+
+article+section+section>main{
+    color: chartreuse;
+}
+
+article+section>p{
+    color: aqua;
 }
