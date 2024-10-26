@@ -1,7 +1,20 @@
-article>main>p{
+/* 2. Direct Child Selector (>) */
+
+/* article>main>p{
     color: #0cf44e;
 }
 
 article>p{
     color: blueviolet;
+}
+
+section>aside>p{
+    color: aqua;
+} */
+
+
+/* 1. Decendent Selector (_) */
+
+article_p{
+    color: #d5f810;
 }
