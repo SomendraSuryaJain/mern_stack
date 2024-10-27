@@ -1,23 +1,63 @@
-fieldset{
-    width: 500px;
-    text-align: center;
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container{
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(3, 3, 3);
+}
+i{
+    font-size: 90px; 
+    color: blue;
 }
 h2{
-    font-size: 70px;
-    /* text-align: center; */
-    margin: 2%;
-}
-/* button1{
-    align-items: center;
-    background-color: aqua;
-    color: #000;
-    border: none;
-} */
-form{
     text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 60px;
 }
-box{
-    width: 500px;
-    height: 300px;
-    background-color: aqua;
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 150px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+button[type="submit"]{
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: #3e8e41;
+}
+button[type="reset"]{
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"]:hover{
+    background-color: red;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form's practice in HTML</title>
+    <title>Sign Up Form</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
@@ -11,49 +11,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Form Tag's practice in HTML</h1>
-    <div class="box">
-        <form action="#">
-            <!-- <fieldset> -->
-                <!-- <legend>Sign Up Page</legend> -->
-                <i class='fas fa-user-circle'style="font-size: 90px; color: #7ed7ed;"></i>
-                <u><h2>Sign Up</h2></u>
-    
+    <div class="container">
+        
+        <form>
+            <div class="form-group">
+                <i class='fas fa-user-circle'></i><br>
+                <h2>Sign Up</h2>
+            </div> 
+            
+            <div class="form-group">
                 <label for="user-name">
-                    Name :
+                    Name : <input type="text" id="user-name" name="Full Name" placeholder="Enter your name"><br>
                 </label>
-                <input type="text" id="user-name" name="Full Name" placeholder="Enter your name"><br><br>
-    
+                <!-- <input type="text" id="user-name" name="Full Name" placeholder="Enter your name"><br> -->
+            </div>
+            
+            <div class="form-group">
                 <label for="user-id">
-                    E-mail :
+                    E-mail : <input type="text" name="email" id="user-id" placeholder="Enter your email"><br>
                 </label>
-                <input type="text" name="email" id="user-id" placeholder="Enter your email"><br><br>
-    
+                <!-- <input type="text" name="email" id="user-id" placeholder="Enter your email"><br> -->
+            </div>
+            
+            <div class="form-group">
                 <label for="user-Gender">
-                    Gender :
+                    Gender : <input type="radio" id="gender" name="g"> Male
+                             <input type="radio" id="gender" name="g"> Female
+                             <input type="radio" id="gender" name="g"> Others <br>
                 </label>
-                <input type="radio" id="gender" name="g"> Male
+                <!-- <input type="radio" id="gender" name="g"> Male
                 <input type="radio" id="gender" name="g"> Female
-                <input type="radio" id="gender" name="g"> Others <br><br>
-    
+                <input type="radio" id="gender" name="g"> Others <br> -->
+            </div>
+            
+            <div class="form-group">
                 <label for="user-dob">
-                    DOB :
+                    DOB : <input type="date" name="DOB" id="user-dob"><br>
                 </label>
-                <input type="date" name="DOB" id="user-dob"><br><br>
-    
+                <!-- <input type="date" name="DOB" id="user-dob"><br> -->
+            </div>
+            
+            <div class="form-group">
                 <label for="user-password">
-                    Password :
+                    Password : <input type="password" name="pswd" id="user-password" placeholder="Enter password"><br>
                 </label>
-                <input type="password" name="pswd" id="user-password" placeholder="Enter password"><br><br>
-    
+                <!-- <input type="password" name="pswd" id="user-password" placeholder="Enter password"><br> -->
+            </div>
+            
+            <div class="form-group">
                 <label for="user-re-enter password">
-                    Re-enter Password :
+                    Re-enter Password : <input type="password" name=" re-enter pswd" id="user-re-enter password" placeholder="Re-enter password"><br>
                 </label>
-                <input type="password" name=" re-enter pswd" id="user-re-enter password" placeholder="Re-enter password"><br><br>
-    
+                <!-- <input type="password" name=" re-enter pswd" id="user-re-enter password" placeholder="Re-enter password"><br> -->
+            </div>
+            
+            <div class="form-group">
                 <button type="submit">Sign Up</button>
                 <button type="reset">Cancel</button>
-            </fieldset>
+            </div>            
         </form>
     </div>
 </body>
