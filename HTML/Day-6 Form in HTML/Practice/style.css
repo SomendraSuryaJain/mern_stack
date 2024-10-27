@@ -36,8 +36,8 @@ input[type="text"], input[type="email"], input[type="password"]{
     border-radius: 6px;
 }
 button[type="submit"]{
-    width: 130px;
-    height: 40px;
+    width: 105px;
+    height: 36px;
     background-color: blue;
     font-size: 25px;
     color: #fff;
@@ -49,8 +49,8 @@ button[type="submit"]:hover{
     background-color: #3e8e41;
 }
 button[type="reset"]{
-    width: 130px;
-    height: 40px;
+    width: 105px;
+    height: 36px;
     background-color: blue;
     font-size: 25px;
     color: #fff;
