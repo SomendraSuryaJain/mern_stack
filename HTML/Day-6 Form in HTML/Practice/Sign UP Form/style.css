@@ -14,6 +14,7 @@ body{
 i{
     font-size: 90px; 
     color: blue;
+    margin-left: 120px;
 }
 h2{
     text-align: center;
@@ -22,7 +23,7 @@ h2{
     font-size: 60px;
 }
 .form-group{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 label{
     display: block;
@@ -44,6 +45,7 @@ button[type="submit"]{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left:  60px;
 }
 button[type="submit"]:hover{
     background-color: #3e8e41;
@@ -57,6 +59,7 @@ button[type="reset"]{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 5px;
 }
 button[type="reset"]:hover{
     background-color: red;
