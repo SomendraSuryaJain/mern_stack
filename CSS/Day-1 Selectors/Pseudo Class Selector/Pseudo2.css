@@ -1,0 +1,16 @@
+/* Not visited state:- skyblue (default) */
+
+a{
+    font-size: 40px;
+}
+a:link{
+    color: aqua;
+}
+/* Active state:- red (default) */
+a:active{
+    color: violet;
+}
+/* Visited state:- purple (default) */
+a:visited{
+    color: chartreuse;
+}
