@@ -1,13 +1,21 @@
+body{
+    background-color: black;
+    place-items: center;
+}
+
 div::before{
     content: "Jai "; 
     color: tomato;
+    font-size: 60px;
 }
 
 div{
     color: white;
+    font-size: 60px;
 }
 
 div::after{
     content: " Ram..🙏";
     color: green;
+    font-size: 60px;
 }
