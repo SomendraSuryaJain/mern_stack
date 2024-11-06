@@ -1,0 +1,13 @@
+div::before{
+    content: "Jai "; 
+    color: tomato;
+}
+
+div{
+    color: white;
+}
+
+div::after{
+    content: " Ram..🙏";
+    color: green;
+}
