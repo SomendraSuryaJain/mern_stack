@@ -1,0 +1,33 @@
+span{
+    display: inline-block;
+}
+
+span::first-letter{
+    color: brown;
+    font-size: 30px;
+    font-style: italic;
+}
+
+p::first-line{
+    color: tomato;
+    font-style: italic;
+    font-size: 40px;
+}
+
+*::selection{
+    background-color: #000;
+    color: gold;
+
+}
+
+main::selection{
+    background-color: #fff;
+    color: aqua;
+}
+
+ul>li::marker{
+    /* content: "# "; */
+    content: "❤️";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
