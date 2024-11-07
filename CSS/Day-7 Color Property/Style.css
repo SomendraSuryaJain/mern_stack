@@ -1,0 +1,35 @@
+
+/* Example of color in Hexa value */
+/* div{
+    color: #00ff00;
+    font-size: 70px;
+    background-color: blue;
+} */
+
+/* Example of color name */
+/* div{
+    color: lightgreen;
+    font-size: 70px;
+    background-color: blue;
+} */
+
+/* Example of hsl value */
+/* div{
+    color: hsl(64, 95%, 62%);
+    font-size: 70px;
+    background-color: blue;
+} */
+
+/* Example of rgba(red,green,blue,alpha) value */
+/* div{
+    color: rgb(250, 66, 170);
+    font-size: 70px;
+    background-color: blue;
+} */
+
+/* Example of hwb(hwe, whiteness, blackness) value */
+div{
+    color: hwb(192 26% 2% / 0.848);
+    font-size: 70px;
+    background-color: blue;
+}

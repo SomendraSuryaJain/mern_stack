@@ -1,0 +1,28 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw; /* 1536px */
+    height: 100vh;
+}
+main{
+    height: 500px;
+    background-color: cyan;
+}
+main>div.div-1{
+    height: 45%;
+    width: 45%;
+    background-color: green;
+}
+main>div.div-2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(13, 0, 128);
+    margin-left: 52%;
+}
