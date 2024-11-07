@@ -1,7 +1,7 @@
 /* div.class-1{
     color: crimson;
 } */
-
+/* 
 div[class^="p-1"]{
     color: red;
     font-size: 25px;
@@ -15,4 +15,26 @@ div[class^="p-2"]{
 div[class^="p-3"]{
     color: green;
     font-size: 15px;
+} */
+
+
+/* Example of Middle target */
+/* div[class~="grid"]{
+    color: cyan;
+    font-size: 15px;
+}
+
+div[class~="table"]{
+    color: rgb(236, 24, 183);
+    font-size: 15px;
+} */
+
+div#div-2{
+    color: yellow;
+    font-size: 35px;
+}
+
+p.flex{
+    color: yellowgreen;
+    font-size: 25px;
 }
