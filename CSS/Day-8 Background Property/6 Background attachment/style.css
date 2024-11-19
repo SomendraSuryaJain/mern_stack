@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw; /* 1536px*/
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section-1{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.xqXx_cmooo8IcmQpVeZ8MAHaEZ&pid=Api&P=0&h=180');
+}
+.section-2{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.5ig4MAjWFGVZKSZLoWAfGwHaEK&pid=Api&P=0&h=180');
+    background-attachment: fixed;
+}
+.section-3{
+    background-image: url('https://mybigplunge.com/wp-content/uploads/2024/08/Mahindra-Thar-Roxx_5-Door_Plunge.png');
+}
+.section-4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlctF4WahOt7iJmpzZrO-3vARpAFgKZynZ1w&s');
+    background-attachment: fixed;
+}
