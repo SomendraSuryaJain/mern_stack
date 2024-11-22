@@ -1,0 +1,63 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    gap: 20px 30px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    background-color: deeppink;
+    border-radius: 25px;
+}
+.card-2{
+    background-color: lightblue;
+    border-radius: 30px 80px;
+}
+.card-3{
+    background-color: darkgreen;
+    border-radius: 50px 20px;
+}
+.card-4{
+    background-color: darkred;
+    border-radius: 40px 0px;
+}
+.card-5{
+    background-color: darkgrey;
+    border-radius: 0px 40px;
+}
+.card-6{
+    background-color: rgb(187, 243, 58);
+    border-radius: 0px 130px 40px 0px;
+}
+.card-7{
+    background-color: lawngreen;
+    border-radius: 150px 0px 0px 150px;
+}
