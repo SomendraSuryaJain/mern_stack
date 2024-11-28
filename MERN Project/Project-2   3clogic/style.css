@@ -1,0 +1,32 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+/* div{
+    width: 10px;
+} */
+
+
+>img{
+    font-size: ;
+}
+
+nav a{
+    gap: 5px;
+    font-size: 30px;
+}
