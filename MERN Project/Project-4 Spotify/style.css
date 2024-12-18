@@ -111,70 +111,131 @@ body{
     cursor: pointer;
 }
 
-.container{
-    width: 322px;
+.header .btn button:hover{
+    transition: 3sec;
+}
+/* ==============library css */
+.library{
+    width: 350px;
     height: 549px;
-    background-color: lightcoral;
-    display: flex;
+    background-color: #121212;
+    margin-left: 4px;
+    border-radius: 4px;
 }
 
-.container .left-container{
-    width: 322px;
-    height: 549px;
-    background-color: #e90e0e;
+.library-header .logo{
+    width: 100%;
+    height: 60px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     border-radius: 10px;
 }
 
-.container .left-container .left-header{
-    width: 322px;
-    height: 60px;
-    background-color: aqua;
+.logo>img,h1{
+    gap: 5px;
 }
 
-.container .left-container .content{
-    width: 290px;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.library .library-header h1,i{
+    font-size: 20px;
+    color: #b3b3b3;
 }
 
-.container .left-container .content h1,i{
+.library .icon>i:hover{
+    border-radius: 50px;
+    cursor: pointer;
     color: white;
 }
 
-.card{
-    width: 322px;
+.library-content{
+    width: 350px;
     height: 323px;
-    background-color: rgb(14, 244, 30);
     display: grid;
     justify-content: space-evenly;
 }
 
-.card-1{
-    width: 306px;
+.library-content .card-1{
+    width: 330px;
     height: 134px;
-    background-color: rgb(243, 239, 14);
+    background-color: #1f1f1f;
     border-radius: 10px;
-    /* margin: 8px;
-    margin-top: 25px; */
+    padding: 20px;
+    display: grid;
+    justify-content: space-between;
 }
 
 .card-1>h5{
-    font-size: 25px;
+    font-size: 18px;
+    color: white;
+}
+.card-1>p{
+    font-size: 16px;
+    color: white;
+}
+.card-1>button{
+    width: 70%;
+    height: 95%;
+    border-radius: 25px;
 }
 
-.card-2{
-    width: 306px;
+.library-content .card-2{
+    width: 330px;
     height: 134px;
     border-radius: 10px;
-    /* padding: 20px; */
-    background-color: rgb(243, 14, 190);
-    /* margin: 8px;
-    margin-top: 25px; */
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: grid;
+    justify-content: space-between;
+}
+.card-2>h3{
+    font-size: 18px;
+    color: white;
+}
+.card-2>p{
+    font-size: 16px;
+    color: white;
+}
+.card-2>button{
+    width: 60%;
+    height: 100%;
+    border-radius: 25px;
 }
 
-.right-container{
+.table{
+    width: 350px;
+    height: 162px;
+    bottom: 0px;
+    left: 0px;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 12px;
+   
+}
+
+.table>ul{
+    list-style: none;
+    gap: 20px;
+    display: grid;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .right-container{
     width: 1151px;
     height: 549px;
     background-color: rgb(56, 15, 234);
@@ -211,72 +272,4 @@ body{
 .right-header a:hover{
     cursor: pointer;
     text-decoration: underline;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .header .btn button:first-of-type{
-    background: none;
-    color: rgb(162, 160, 160);
-} */
-
-
-/* .left_container{
-    width: 362px;
-    height: 90%;
-    background-color: #121212;
-    color: #aeaeae;
-}
-
-
-.card{
-    background-color: #1f1f1f;
-    width: 330px;
-    height: 134px;
-    justify-content: center;
-    border-radius: 8px;
-
-}
-.card{
-    padding: 20px;
-}
-.card-1 h1{
-    font-size: 30px;
-}
-
-.card-1 p{
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-.card-1 button{
-    width: 30px;
-    font-size: 10px;
-    margin-top: 15px;
-}
-
-.card-2 h1{
-    font-size: 30px;
-}
-
-.card-2 p{
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-.card-2 button{
-    width: 30px;
-    font-size: 10px;
-    margin-top: 15px;
 } */

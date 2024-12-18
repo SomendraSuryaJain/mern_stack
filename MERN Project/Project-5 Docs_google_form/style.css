@@ -1,0 +1,21 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0ebf8;
+}
+
+.container{
+    width: 340px;
+    height: 3262px;
+    align-content: center;
+    background-color: aquamarine;
+}
