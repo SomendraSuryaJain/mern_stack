@@ -114,13 +114,16 @@ body{
 .header .btn button:hover{
     transition: 3sec;
 }
-/* ==============library css */
+/* =====library css======== */
 .library{
-    width: 350px;
+    width: 420px;
     height: 549px;
     background-color: #121212;
     margin-left: 4px;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .library-header .logo{
@@ -151,15 +154,20 @@ body{
 }
 
 .library-content{
-    width: 350px;
-    height: 323px;
-    display: grid;
-    justify-content: space-evenly;
+    width: 412px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 6px;
 }
 
 .library-content .card-1{
-    width: 330px;
-    height: 134px;
+    width: 404px;
+    height: 150px;
     background-color: #1f1f1f;
     border-radius: 10px;
     padding: 20px;
@@ -182,8 +190,8 @@ body{
 }
 
 .library-content .card-2{
-    width: 330px;
-    height: 134px;
+    width: 404px;
+    height: 150px;
     border-radius: 10px;
     background-color: #1f1f1f;
     padding: 20px;
@@ -204,72 +212,104 @@ body{
     border-radius: 25px;
 }
 
-.table{
-    width: 350px;
-    height: 162px;
-    bottom: 0px;
-    left: 0px;
-    background-color: lawngreen;
-    display: flex;
-    flex-direction: row;
+.container{
+    width: 420px;
+    height: 208px;
+    background-color: #121212;
     color: white;
-    justify-content: space-evenly;
     font-size: 12px;
-   
+    background-color: blueviolet;
+    justify-items: flex-end;
+    /* position: fixed; */
+    /* justify-content: space-around; */
 }
 
-.table>ul{
-    list-style: none;
-    gap: 20px;
-    display: grid;
-    flex-direction: column;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* .right-container{
-    width: 1151px;
-    height: 549px;
-    background-color: rgb(56, 15, 234);
-    border-radius: 10px;
-    display: grid;
-    flex-direction: column;
-}
-
-.right-header{
-    width: 1108px;
-    height: 48px;
+.container .left-content{
+    height: 80px;
+    width: 420px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 15px;
+    flex-direction:column;
+    margin-top: 25px;
+    margin-left: 16px;
 }
 
-.right-header h1{
-    font-size: 30px;
-    color: #fff;
+
+.list{
+    width: 90%;
+    /* margin-top: 5px; */
+    height: 200px;
+    display: flex;
+    background-color: #616060;
+    gap: 10px;
+}
+.list>div{
+    font-size: 15px;
 }
 
-.right-header h1:hover{
+/* .list>span{
+    margin: 7px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+span:last-of-type{
+    margin-top: 10px;
+}
+
+.list>span:hover{
     cursor: pointer;
-    text-decoration: underline;
-}
-
-.right-header a{
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.right-header a:hover{
-    cursor: pointer;
-    text-decoration: underline;
 } */
+
+.data{
+    width: 390px;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.data>a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.link>a:hover{
+    text-decoration: underline;
+}
+
+.language{
+    width: 95px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+
+}
+
+.language>button{
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 650;
+}
+
+.language .icon{
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+
+/* ===========Right Container========= */
+
+.right-container{
+    width: 1072px;
+    height: auto;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
